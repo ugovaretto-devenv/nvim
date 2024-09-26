@@ -5,6 +5,9 @@ return {
         event = "VeryLazy",
         config = function()
             require("supermaven-nvim").setup({
+                keymaps = {
+                    accept_suggestion = "<C-y>"
+                }
                 -- Configuration here, or leave empty to use defaults
             })
         end
